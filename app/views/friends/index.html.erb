@@ -28,5 +28,7 @@
 <%= link_to "New friend", new_friend_path, class:"btn btn-secondary" %>
 
 <% else %>
-<h1> hello world </h1>
+<h2>
+<%= link_to "Sign In", new_user_session_path %> or <%= link_to "Sign Up", new_user_registration_path %> to make your own friend's list!
+ </h2>
 <% end %>
